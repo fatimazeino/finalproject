@@ -27,3 +27,20 @@ Then, initialize the Linear Regression model, split the data using train_test_sp
 After that, train the model with the training data set that contains the independent variables by Inilializing the Linear Regression model and print the estimated coefecients for each column of our model
 Training the Linear Regression model using coefficients that describe the linear function and print the model's predictions
 Check the model's performance/accuracy using a metric called mean squared error (MSE) in two different ways, one using numpy and the other using sklearn.metrics ... the model had predicted the exact value as the actual values which is good
+Check r2_score (performance / accuracy ) for the modeles to compare:
+-Linear Regression model r2_score = 0.6628996975186952 
+-DecisionTreeRegressor model r2_score = 0.5853630693055365
+-RandomForestRegressor model r2_score = 0.7710084613587442
+-RandomForestRegressor with n_estimators=100 r2_score = 0.778327124123161
+-neural network r2_score = 0.7817100025274083
+Notice the Neural Network score the highest accuraacy
+
+
+References:
+-----------
+https://www.cs.toronto.edu/~delve/data/boston/bostonDetail.html
+https://scikit-learn.org/stable/modules/generated/sklearn.linear_model.LinearRegression.html
+https://scikit-learn.org/stable/modules/generated/sklearn.tree.DecisionTreeRegressor.html
+https://scikit-learn.org/stable/modules/generated/sklearn.ensemble.RandomForestRegressor.html
+https://scikit-learn.org/stable/modules/neural_networks_supervised.html#regression
+https://scikit-learn.org/stable/modules/generated/sklearn.metrics.r2_score.html#sklearn.metrics.r2_score
