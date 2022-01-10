@@ -1,6 +1,8 @@
 # finalproject
 This project use a machine learning algorithm (linear regression) to expect boston house prices
 -----------------------------------------------------------------------------------------------
+This project run in Goolge colab
+Two files in different format(Bostonhouseprices.ipynb and bostonhouseprices.py) have the same code
 Import dependencies (the machine learning library sklearn, numpy, and pandas)
 Load the Boston Housing Data Set from the scikit-learn library using load_boston() function and print it
 Print the value of the dictionary (BostonDataset) to understand what it contains:
